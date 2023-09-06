@@ -1,0 +1,356 @@
+body{
+    width: 100%;
+    height: 300vh;
+}
+
+
+/* Question 1: */
+
+table{
+    height: 100px;
+}
+.normal{
+    font-style: normal;
+    font-weight: normal;
+}
+
+#oblique{
+    font-style: oblique;
+}
+
+#italic{
+    font-style: italic;
+}
+
+
+
+#bold{
+    font-weight: bold;
+}
+
+#bolder{
+    font-weight: bolder;
+}
+
+#lighter{
+    font-weight: lighter;
+}
+
+span{
+    font-weight: 400;
+}
+
+
+
+#cinqcent{
+    font-weight: 500;
+}
+
+#sixcent{
+    font-weight: 600;
+}
+
+#septcent{
+    font-weight: 700;
+}
+
+#huitcent{
+    font-weight: 800;
+}
+
+em{
+    font-style: normal;
+    font-weight: 900;
+}
+
+
+
+#capitalize{
+    text-transform: capitalize;
+}
+
+#uppercase{
+    text-transform: uppercase;
+}
+
+#lowercase{
+    text-transform: lowercase;
+}
+
+.none{
+    text-transform: none;
+    text-decoration: none;
+}
+
+
+
+
+#smallcaps{
+    font-variant: small-caps;
+}
+
+
+
+#underline{
+    text-decoration: underline;
+}
+
+#overline{
+    text-decoration: overline;
+}
+
+#linethrought{
+    text-decoration: line-through;
+}
+
+
+
+/* Question 2 :  */
+
+#river{
+    width: 200px;
+    height: 100px;
+}
+
+p{
+    float: left;
+    margin-top: 45px;
+}
+
+
+
+/* Question 3 :  */
+
+/* STYLE, COLOR, WIDTH */
+
+
+
+/* Question 4 : */
+
+#conteneur{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-around;
+}
+
+.box{
+    background-color: lightgray;
+    width: 20%;
+    height: 60px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#continuearr{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#pointilleearr{
+    border: 2px dotted black;
+    border-radius: 10px;
+}
+
+#tiretsarr{
+    border: 2px dashed black;
+    border-radius: 10px;
+}
+
+#elliiptique{
+    border: 5px solid black;
+    border-radius: 10px;
+    -webkit-border-radius: 12px / 24px;
+    -moz-border-radius:    12px / 24px;
+}
+
+
+
+/* Question 5 :  */
+
+#cont{
+    height: 350px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.bordure{
+    padding: 5px;
+}
+
+#dotted{
+    border: 4px dotted black;
+}
+
+#dashed{
+    border: 4px dashed black;
+}
+
+#solid{
+    border: 4px solid black;
+}
+
+#double{
+    border: 10px double lightgray;
+}
+
+#groove{
+    border: 4px groove black;
+}
+
+#ridge{
+    border: 4px ridge black;
+}
+
+#inset{
+    border: 4px inset black;
+}
+
+#outset{
+    border: 4px outset black;
+}
+
+
+
+/* Question 6 : */
+
+#contSoleil{
+    background-color: lightgray;
+    border: 2px solid black;
+    width: 450px;
+    height: 300px;
+}
+
+#sunset{
+    position: absolute;
+    z-index: 4;
+    width: 200px;
+    height: 150px;
+    float: right;
+    margin-top: 80px;
+    margin-left: 63px;
+
+}
+
+#sunsett{
+    position: absolute;
+    z-index: 2;
+    width: 200px;
+    height: 100px;
+    margin-top: 200px;
+    margin-left: 63px;
+}
+
+
+
+/* Question 7 : */
+
+#contChat{
+    border: 15px solid orange;
+    width: 50%;
+    height: 500px;
+}
+
+#borGris{
+    position: relative;
+    z-index: 2;
+    border: 5px solid lightgray;
+    background-color: lightgray;
+    height: 490px;
+}
+
+#rideaux{
+    position: absolute;
+    z-index: 3;
+    width: 500px;
+    height: 350px;
+    margin-left: 85px;
+    margin-top: 70px;
+}
+
+#lion{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    z-index: 4;
+    margin-top: 120px;
+    margin-left: 85px;
+}
+
+#chat{
+    position: absolute;
+    z-index: 5;
+    margin-left: 90px;
+    margin-top: 90px;
+    font-size: 30px;
+}
+
+
+
+/* Question 8 :  */
+
+#contPara{
+    width: 30%;
+    height: 350px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+}
+
+#premPara{
+    border: 7px solid gray;
+    width: 300px;
+    height: 90px;
+    background-color: white;
+    margin-left: 20px;
+    font-size: 25px;
+    flex-wrap: wrap;
+    padding: 6px;
+}
+
+#deuxPara{
+    border: 7px solid gray;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 45%;
+    height: 210px;
+    padding-left: 6px;
+    font-size: 25px;
+}
+
+
+
+/* Question 9 :  */
+
+#contBloc{
+    border: 10px solid red;
+    width: 50%;
+    height: 60px;
+}
+
+#txtBloc{
+    background-color: lightgray;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+
+
+/* Question 10 : */
+
+h1{
+    text-shadow: 3px 1px 2px black;
+}
+
+#bloc{
+    border: 1px solid black;
+    width: 20%;
+    box-shadow: 3px 3px 3px 3px black;
+}
